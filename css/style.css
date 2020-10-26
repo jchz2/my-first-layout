@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family:'DM Sans', sans-serif ;
+}
+
+header{
+    background-color: #f9fff2;
+    padding-top: 15px;
+    background-image: url('../images/MaskGroup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    padding: 0px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.btn{
+    border-radius:3px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-shadow: 0 3px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: rgb(59, 8, 243);
+}
+ 
+
+nav ul li a{
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+header .header-info{
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .header-info h1{
+    font-size: 50px;
+}
+
+header div p samp{
+    color: #32bba4; 
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.art1{
+    border-radius:3px;
+    padding: 20px 20px;
+    text-decoration: none;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: black;
+    background-color: rgb(244, 243, 247);
+    margin-left: 90px;
+    margin-top: 5px;
+    
+}
+
+.art1-li{
+    margin-right: 50px;
+    padding: 20px 20px;
+    list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-purple.svg");
+}
+
+.art2{
+    border-radius:3px;
+    padding: 20px 20px;
+    text-decoration: none;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: black;
+    background-color: rgb(244, 243, 247);
+    margin-top: 5px;
+    margin-right: 90px;
+    
+}
+
+.art2-li{
+    margin-right: 50px;
+    padding: 20px 20px;
+    list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-purple.svg");
+}
+
+.art3{
+    border-radius:3px;
+    padding: 20px 20px;
+    text-decoration: none;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: black;
+    background-color: rgb(67, 6, 252);
+    margin-top: 5px;
+    
+}
+
+.art3-li{
+    margin-right: 50px;
+    padding: 20px 20px;
+    list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-white.svg");
+}
+
+.but3{
+    border-radius:3px;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-shadow: 0 3px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: rgb(99, 62, 233);
+    background-color: rgb(252, 252, 252);
+}
+
+button{
+    border-radius:3px;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-shadow: 0 3px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: rgb(59, 8, 243);
+}
