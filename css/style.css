@@ -17,7 +17,7 @@ header{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -26,6 +26,7 @@ nav ul{
     padding: 0px;
     width: 40%;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul li{
@@ -51,6 +52,8 @@ nav ul li a{
 header .header-info{
     text-align: center;
     padding: 100px 0;
+    max-width: 1149px;
+    margin:0 auto;
 }
 
 header .header-info h1{
@@ -64,7 +67,7 @@ header div p samp{
 
 section{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 }
 
 .art1{
@@ -74,14 +77,12 @@ section{
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
     color: black;
     background-color: rgb(244, 243, 247);
-    margin-left: 90px;
     margin-top: 5px;
+    align-items: center;
     
 }
 
 .art1-li{
-    margin-right: 50px;
-    padding: 20px 20px;
     list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-purple.svg");
 }
 
@@ -93,12 +94,10 @@ section{
     color: black;
     background-color: rgb(244, 243, 247);
     margin-top: 5px;
-    margin-right: 90px;
     
 }
 
 .art2-li{
-    margin-right: 50px;
     padding: 20px 20px;
     list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-purple.svg");
 }
@@ -115,7 +114,6 @@ section{
 }
 
 .art3-li{
-    margin-right: 50px;
     padding: 20px 20px;
     list-style-image:url("/home/jchz2/Documentos/my-first-layout/images/checkmark-white.svg");
 }
