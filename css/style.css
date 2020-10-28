@@ -13,24 +13,31 @@ header{
     background-image: url('../images/MaskGroup.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: cover;
+    padding-top: 15px;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    /*align-items: center;*/
 }
 
 nav ul{
     display: flex;
+    justify-content: space-between;
     padding: 0px;
     width: 40%;
-    justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 nav ul li{
     list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #8e8e8e;
 }
 
 .btn{
@@ -44,16 +51,17 @@ nav ul li{
 }
  
 
-nav ul li a{
-    text-decoration: none;
-    color: #8e8e8e;
-}
+
 
 header .header-info{
-    text-align: center;
+    display:flex;
+    align-self: center;
     padding: 100px 0;
-    max-width: 1149px;
-    margin:0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 header .header-info h1{
@@ -67,7 +75,7 @@ header div p samp{
 
 section{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .art1{
@@ -137,3 +145,20 @@ button{
     color: white;
     background-color: rgb(59, 8, 243);
 }
+
+.position-relative{
+    position: relative;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 26px;
+    right: 0;
+    bottom: 0;
+}
+
+.image{
+    filter: drop-shadow(10px 20px 5px rgba(0,0,0, 0.7));
+}
+
